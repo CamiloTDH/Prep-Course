@@ -60,8 +60,9 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  console.log(x/y);
-} // Divide (10,2)
+  var divide = x / y;
+      return divide;
+} 
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
