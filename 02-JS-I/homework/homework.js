@@ -35,39 +35,40 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
-
-   console.log ( x + y );
-}  //  suma(8,3)
+    var suma = x + y;
+      return suma;  
+}  
 
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  var resta = x - y;
+      return resta;
+}
 
-  console.log(x - y);
-} // resta(2,1)
 
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-
-  console.log(x*y);
-} // multiplica(4,6)
+  var multiplicar = x * y;
+      return multiplicar;
+}
 
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
-}
+  console.log(x/y);
+} // Divide (10,2)
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
 }
+
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
